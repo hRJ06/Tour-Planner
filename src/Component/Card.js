@@ -6,7 +6,6 @@ function Card({id,name,info,image,price,removeTour}){
     function readmoreHandler() {
         setReadMore(!readMore);
     }
-    console.log(description);
     return (
         <div className="card">
             <img src = {image} className="image"alt = "Hello"></img>
